@@ -1,0 +1,86 @@
+body::before{
+    display: block;
+    content: "";
+    height: 50px;
+}
+
+#home-pg{
+width: 100%;
+height: 100vh;
+background-image: url(images/electrc1.jpg);
+background-size: cover;
+background-position: center;
+}
+#aboutus{
+    background-color: #29343d;
+    padding-bottom: 40px;
+}
+#abp{
+    font-size: 14px;
+    color: #4b8cc8;
+}
+#aboutus .about-btn{
+    border: 2px solid #4b8cc8;
+    background-color: #29343d;
+    transition-duration: 0.4s;
+}
+#aboutus .about-btn:hover{
+    border: 2px solid #cfd6dd;
+    color: #4b8cc8 !important;
+    
+}
+#about-deco img{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#about-deco img:hover{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+#service{
+    background-color: #afb3b7;
+}
+#service-items .bi{
+    color: #4b8cc8 !important;
+}
+#service-items a:hover{
+    border: 2px solid #cfd6dd !important;
+    color: #4b8cc8 !important;
+    font-weight: 500;
+} 
+#service-items a:hover{
+    border: 2px solid #cfd6dd !important;
+    color: #4b8cc8 !important;
+    font-weight: 500;
+} 
+#service-items a:hover .bi{
+    color: #cfd6dd !important;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+    #aboutus #about-deco{
+        border: 10px solid #4b8cc8;
+        width:400px;
+        height: 300px;
+        position: relative;
+        margin-right:auto;
+    }
+    #aboutus img{
+        position: absolute;
+        width:400px;
+        height: 300px;
+        top: 30px;
+        right: 30px;
+    }
+    
+}
