@@ -59,7 +59,12 @@ background-position: center;
     color: #cfd6dd !important;
 }
 
-
+#show-case{
+    background-color: #29343d;
+}
+.show{
+    background-color: #29343d;
+}
 
 
 
@@ -82,5 +87,7 @@ background-position: center;
         top: 30px;
         right: 30px;
     }
-    
+    .show{
+        background-color: white;
+    }
 }
