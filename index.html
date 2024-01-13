@@ -9,12 +9,15 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="main.css" />
     <script src="main.js" defer></script>
     <title>sync company</title>
   </head>
-  <body>
+  <body class="bg-dark">
     <!--home-->
     <section id="home-pg">
       <nav
@@ -55,6 +58,9 @@
           </div>
         </div>
       </nav>
+      <div>
+        <h1 class="fs-3 text-light" id="home_intro">Your Trusted Partner in Electrical and Telecommunication Solutions</h1>
+      </div>
     </section>
     <!--end home-->
 
@@ -74,12 +80,16 @@
           >"
         </p>
         <div class="row g-3 pt-5 px-4">
-          <div class="col-md-6">
-            <p class="text-md-start text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              officiis, doloribus dolorem ad, recusandae suscipit odit,vcgd
-              ggfxfg fxf itti ht similique veniam praesentium libero nobis sequi
-              explicabo, cumque ratione?
+          <div class="col-md-6 pe-4">
+            <p class="text-md-start text-justify">
+             <em class="text-secondary">our story</em> <br>
+             Founded in 2017, Sync company limited has emerged as a leading player in the electrical and 
+             telecommunication industry. with a passion for excellence and a customer-centric approach, 
+             we have successfully delivered projects of all scales, earning the trust of our clients. <br>
+             At Sync compay limitedwe specialize in providing cutting-edge solutions for all your electrical
+             and tellecommunication needs. with a team of experienced professionals and a commitment to innovation,
+             we deliver reliable and efficient services tailored to meet our clients unique requirements
+
             </p>
             <div class="text-center text-md-start pb-4">
               <button type="button" class="about-btn text-light fw-bold">
@@ -98,7 +108,7 @@
 
     <!--services-->
     <section class="text-light text-center py-4" id="service">
-      <div class="container">
+      <div class="container py-3">
         <p
           class="text-center text-uppercase text-decoration-underline fw-bold py-3"
           id="abp"
@@ -122,42 +132,69 @@
             <div class="row g-2">
               <div class="col-6 col-md-6">
                 <div class="card">
-                    <div class="card-body bg-dark">
-                        <div class="h1 py-2"><i class="bi bi-tools "></i></div>
-                        <h5 class="card-title ">Electrical <br>Installation</h5>
-                        <p class="card-text pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis doloribus consectetur quam itaque.</p>
-                        <a href="#" class="btn text-light border border-primary" ><i class="bi bi-arrow-right px-2 fs-5 "></i>Read More</a>
-                    </div>
+                  <div class="card-body" id="service-card">
+                    <div class="h1 py-2"><i class="bi bi-tools"></i></div>
+                    <h5 class="card-title">Maintenance &<br />Repair</h5>
+                    <p class="card-text text-justify pt-2">
+                      Our proactive approach helps identify potential issues before they become problems,minimizing downtime and
+                      ensuring the longevity of your equipment. keep your electrical systems rrunnig smoothly with our comprehensive
+                      maintenance and repair services.
+                    </p>
+                    <a href="#" class="btn text-light border border-primary"
+                      ><i class="bi bi-arrow-right px-2 fs-5"></i>Read More</a
+                    >
+                  </div>
                 </div>
               </div>
               <div class="col-6 col-md-6">
                 <div class="card">
-                    <div class="card-body bg-dark">
-                        <div class="h1 py-2"><i class="bi bi-router-fill "></i></div>
-                        <h5 class="card-title ">Telecomunication <br>Services</h5>
-                        <p class="card-text pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis doloribus consectetur quam itaque.</p>
-                        <a href="#" class="btn text-light border border-primary" ><i class="bi bi-arrow-right px-2 fs-5 "></i>Read More</a>
-                    </div>
+                  <div class="card-body" id="service-card">
+                    <div class="h1 py-2"><i class="bi bi-router-fill"></i></div>
+                    <h5 class="card-title">Voice and Data <br />Integration</h5>
+                    <p class="card-text text-justify pt-2">
+                     Achieve streamlined communication withnour voice and data integration services. We create unified systems that 
+                     allow seamless transmission of voice and data, enhancing collaboration and efficiency within your organization.
+                    </p>
+                    <a href="#" class="btn text-light border border-primary"
+                      ><i class="bi bi-arrow-right px-2 fs-5"></i>Read More</a
+                    >
+                  </div>
                 </div>
               </div>
               <div class="col-6 col-md-6">
                 <div class="card">
-                    <div class="card-body bg-dark">
-                        <div class="h1 py-2"><i class="bi bi-reception-4 "></i></div>
-                        <h5 class="card-title ">Telecomunication<br> Services</h5>
-                        <p class="card-text pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis doloribus consectetur quam itaque.</p>
-                        <a href="#" class="btn text-light border border-primary" ><i class="bi bi-arrow-right px-2 fs-5"></i>Read More</a>
-                    </div>
+                  <div class="card-body" id="service-card">
+                    <div class="h1 py-2"><i class="bi bi-broadcast-pin"></i></div>
+                    <h5 class="card-title">
+                      Wireless<br />
+                      Communication
+                    </h5>
+                    <p class="card-text text-justify pt-2">
+                     Stay connected on the go with our wireless communication solutions. Whether you need point-to-point or point-to-multipoint 
+                     connectivity, we offer cutting-edge wireless technologies to keep your business operations seamless and efficient
+                    </p>
+                    <a href="#" class="btn text-light border border-primary"
+                      ><i class="bi bi-arrow-right px-2 fs-5"></i>Read More</a
+                    >
+                  </div>
                 </div>
               </div>
               <div class="col-6 col-md-6">
                 <div class="card">
-                    <div class="card-body bg-dark">
-                        <div class="h1 py-2"><i class="bi bi-broadcast-pin "></i></div>
-                        <h5 class="card-title ">Telecomunication <br>Services</h5>
-                        <p class="card-text pt-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis doloribus consectetur quam itaque.</p>
-                        <a href="#" class="btn text-light border border-primary" ><i class="bi bi-arrow-right px-2 fs-5"></i>Read More</a>
+                  <div class="card-body" id="service-card">
+                    <div class="h1 py-2">
+                      <i class="bi bi-plug-fill"></i>
                     </div>
+                    <h5 class="card-title">Power Distribution<br />Services</h5>
+                    <p class="card-text text-justify pt-2">
+                      Whether you're setting up a new facility or upgrading an existing one, our power distribution solutions are designed to meet 
+                      your specific needs. We provide reliable and scalable systems that ensure a consistent and safe supply of electricity throughout
+                      your infrastructure.
+                    </p>
+                    <a href="#" class="btn text-light border border-primary"
+                      ><i class="bi bi-arrow-right px-2 fs-5"></i>Read More</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
@@ -166,90 +203,261 @@
       </div>
     </section>
 
-
     <!--our Team-->
-    <section id="team" class="mb-3">
-      <div class="container">
+    <section id="team" class="mb-3 text-light">
+      <div class="container py-4">
         <p
-        class="text-center text-uppercase text-decoration-underline fw-bold py-3"
-        id="abp"
-      >
-        our team
-      </p>
-      <p class="text-capitalize fw-bold fs-5 text-dark text-center">
-        meet with our expert peoples to reach <br>site top ranking
-      </p>
-      <div class="row g-5 gx-md-0 text-center mt-4 mx-5 px-3 py-3">
-        <div class="col-md-4">
-          <div>
-             <img src="images/person1.jpg" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" alt="">
+          class="text-center text-uppercase text-decoration-underline fw-bold py-3"
+          id="abp"
+        >
+          our team
+        </p>
+        <p class="text-capitalize fw-bold fs-5 text-center">
+          meet with our experts driving<br />SYNC company forward
+        </p>
+        <p id="team-hd" class="text-center ">
+          <em>We take pride in our dedicated and skilled team of professionals who bring
+            expertise and passion to every project </em>
+        </p>
+        <div class="row g-5 gx-md-0 text-center mt-4 mx-5 px-3 py-3">
+          <div class="col-md-4">
+            <div>
+              <img
+                src="images/person1.jpg"
+                style="
+                  width: 150px;
+                  height: 150px;
+                  object-fit: cover;
+                  border-radius: 50%;
+                "
+                alt=""
+              />
               <h4 class="pt-2">Mr. Ben</h4>
               <p class="fst-italic">Chief Execative Officer</p>
-              <a href="#"><i class="bi bi-facebook text-dark p-1"></i></a>
-              <a href="#"><i class="bi bi-twitter-x text-dark p-1"></i></a>
-              <a href="#"><i class="bi bi-instagram text-dark p-1"></i></a>
-              <a href="#"><i class="bi bi-linkedin text-dark p-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-light p-1"></i></a>
+              <a href="#"><i class="bi bi-twitter-x text-light p-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-light p-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-light p-1"></i></a>
             </div>
-        </div>
-        <div class="col-md-4">
-          <div>
-             <img src="images/person2.jpg" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" alt="">
+          </div>
+          <div class="col-md-4">
+            <div>
+              <img
+                src="images/person2.jpg"
+                style="
+                  width: 150px;
+                  height: 150px;
+                  object-fit: cover;
+                  border-radius: 50%;
+                "
+                alt=""
+              />
               <h4 class="pt-2">Eng. Erasto</h4>
-              <p class="fst-italic">Telecommunication engineer</p>
-              <a href="#"><i class="bi bi-facebook text-dark p-1"></i></a>
-              <a href="#"><i class="bi bi-twitter-x text-dark p-1"></i></a>
-              <a href="#"><i class="bi bi-instagram text-dark p-1"></i></a>
-              <a href="#"><i class="bi bi-linkedin text-dark p-1"></i></a>
+              <p class="fst-italic">Telecom engineer</p>
+              <a href="#"><i class="bi bi-facebook text-light p-1"></i></a>
+              <a href="#"><i class="bi bi-twitter-x text-light p-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-light p-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-light p-1"></i></a>
             </div>
-        </div>
-        <div class="col-md-4">
-          <div>
-             <img src="images/person3.jpg" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;" alt="">
+          </div>
+          <div class="col-md-4">
+            <div>
+              <img
+                src="images/person3.jpg"
+                style="
+                  width: 150px;
+                  height: 150px;
+                  object-fit: cover;
+                  border-radius: 50%;
+                "
+                alt=""
+              />
               <h4 class="pt-2">Mr. Ben</h4>
               <p class="fst-italic">Chief Execative Officer</p>
-              <a href="#"><i class="bi bi-facebook text-dark p-1"></i></a>
-              <a href="#"><i class="bi bi-twitter-x text-dark p-1"></i></a>
-              <a href="#"><i class="bi bi-instagram text-dark p-1"></i></a>
-              <a href="#"><i class="bi bi-linkedin text-dark p-1"></i></a>
+              <a href="#"><i class="bi bi-facebook text-light p-1"></i></a>
+              <a href="#"><i class="bi bi-twitter-x text-light p-1"></i></a>
+              <a href="#"><i class="bi bi-instagram text-light p-1"></i></a>
+              <a href="#"><i class="bi bi-linkedin text-light p-1"></i></a>
             </div>
+          </div>
         </div>
-        
-      </div>
       </div>
     </section>
-    
-    <!--show case-->
+
+    <!--show case
+    <section>
+      <div class="container">
+        <div class="row text-center px-3 mx-5 align-items-center">
+          <div class="col-2">
+            <img src="./assets/ericsson-ar21.svg" class="" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/helios-towers-seeklogo.com.svg" class="" alt="">
+          </div>
+          <div class="col-2">
+            <img src="./assets/huawei-ar21.svg" class="" alt="">
+          </div>
+          <div class="col-3">
+            <img src="./assets/nokia-3.svg" class="w-75" alt="">
+          </div>
+          <div class="col-3">
+            <img src="./assets/tigo.svg" class="w-75" alt="">
+          </div>
+        </div>
+      </div>
+    </section>-->
     <section class="show">
       <div class="container">
         <div class="row mx-5 g-3 text-center px-3 py-5 py-md-3" id="show-case">
           <div class="col-md-4">
             <div class="h1 d-inline-flex align-items-center">
-              <i class="bi bi-substack text-white d-none d-md-block" style="width: 60px;"></i>
-               <div class="px-2 fst-italic">
-              <h1 data-target="200" class="text-primary count">0</h1>
-              <p class="fs-6 fw-lighter text-light">Projects done</p>
+              <i
+                class="bi bi-substack text-white d-none d-md-block"
+                style="width: 60px"
+              ></i>
+              <div class="px-2 fst-italic">
+                <h1 data-target="200" class="text-primary count">0</h1>
+                <p class="fs-6 fw-lighter text-light">Projects done</p>
+              </div>
             </div>
-          </div>
           </div>
           <div class="col-md-4">
             <div class="h1 d-inline-flex align-items-center">
-              <i class="bi bi-people-fill text-white d-none d-md-block" style="width: 60px;"></i>
-               <div class="px-2 fst-italic">
-              <h1 data-target="500" class="text-primary count">0</h1>
-              <p class="fs-6 fw-lighter text-light">customers happy</p>
+              <i
+                class="bi bi-people-fill text-white d-none d-md-block"
+                style="width: 60px"
+              ></i>
+              <div class="px-2 fst-italic">
+                <h1 data-target="500" class="text-primary count">0</h1>
+                <p class="fs-6 fw-lighter text-light">customers happy</p>
+              </div>
             </div>
-          </div>
           </div>
           <div class="col-md-4">
             <div class="h1 d-inline-flex align-items-center">
-              <i class="bi bi-puzzle-fill text-white d-none d-md-block" style="width: 60px;"></i>
-               <div class="px-2 fst-italic">
-              <h1 data-target="1000" class="text-primary count">0</h1>
-              <p class="fs-6 fw-lighter text-light">client services</p>
+              <i
+                class="bi bi-puzzle-fill text-white d-none d-md-block"
+                style="width: 60px"
+              ></i>
+              <div class="px-2 fst-italic">
+                <h1 data-target="1000" class="text-primary count">0</h1>
+                <p class="fs-6 fw-lighter text-light">client services</p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!--projects-->
+    <section class="my-5" id="projects">
+      <div class="container">
+        <p class="text-primary fw-bold">OUR PROJECTS</p>
+        <div class="row g-2 g-md-0">
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <div class="card-body position-relative" id="projects-card1">
+                <h4 class="card-title text-black-60 text-center">Electrical Design and Installation</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <div class="card-body position-relative" id="projects-card2">
+                <div class="card-tit"><h4 class="card-title text-black-60 text-center">Network Design and Implementation</h4></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <div class="card-body position-relative" id="projects-card3">
+                <h4 class="card-title text-black-60 text-center">Fiber optic Installation</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <div class="card-body position-relative" id="projects-card4">
+                <h4 class="card-title text-black-60 text-center">Site Modernization</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <div class="card-body position-relative" id="projects-card5">
+                <h4 class="card-title text-black-60 text-center">Wireless communication Installaton</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <div class="card-body position-relative" id="projects-card6">
+                <h4 class="card-title text-black-60 text-center">Electrical repair</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <div class="card-body position-relative" id="projects-card7">
+                <h4 class="card-title text-black-60 text-center">Voice and Data Integration</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="card">
+              <div class="card-body position-relative" id="projects-card8">
+                <h4 class="card-title text-black-60 text-center">Power Distribution solutions</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  <!--newsletter-->
+    <section class="my-4">
+      <div
+        class="container text-light text-center text-md-start border-secondary"
+      >
+        <div class="row pt-4 mb-3 border-bottom border-secondary">
+          <div class="col-md-4" id="footer_col">
+            <h1 class="fs-6">
+              <span class="text-primary fw-bold">SYNC</span> COMPANY LIMITED
+            </h1>
+            <p class="text-secondary mx-md-4">
+              Azimio street, Block Q <br />Plot No.2607 Alvic Building
+              <br />First floor, No.1 <br />Mbezi Luis, Dar es salaam
+            </p>
+          </div>
+          <div class="col-md-3 ms-md-3" id="footer_col">
+            <h1 class="fs-6 fw-bold">LINKS</h1>
+            <ul class="list-unstyled">
+              <li><a href="#home-pg" class="link-secondary text-decoration-none">Home</a></li>
+              <li><a href="#aboutus" class="link-secondary text-decoration-none">About Us</a></li>
+              <li><a href="#service" class="link-secondary text-decoration-none"> Services</a></li>
+              <li><a href="#team" class="link-secondary text-decoration-none">Our Team</a></li>
+              <li><a href="#contacts" class="link-secondary text-decoration-none">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 ms-md-3" id="contacts">
+            <h1 class="fs-6 fw-bold">OUR CONTACTS</h1>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-envelope"></i><a href="info@sync.co.tz" class="link-secondary text-decoration-none"> info@sync.co.tz</a></li>
+              <li class="py-3"> <i class="bi bi-telephone-fill"></i> (+255) 713 024 310</li>
+              <li> <i class="bi bi-telephone-fill"></i> (+255) 746 516 771</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="d-flex text-center align-items-center justify-content-center">
+          <h1 class="fs-6 fw-bold text-secondary">Follow us on</h1>
+          <div class="mx-3">
+          <a href="#"><i class="bi bi-facebook text-primary p-1"></i></a>
+          <a href="#"><i class="bi bi-twitter-x text-light p-1"></i></a>
+          <a href="#"><i class="bi bi-instagram text-light p-1"></i></a>
+          </div>
+          </div>
       </div>
     </section>
 
